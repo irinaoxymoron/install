@@ -1,0 +1,45 @@
+/* @import must be at top of file, otherwise CSS will not work */
+/*   
+@font-face {font-family: 'HelveticaNeueLTStd-Bd';src: url('../fonts/Helvetica/3387D5_0_0.eot');src: url('../fonts/Helvetica/3387D5_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/Helvetica/3387D5_0_0.woff2') format('woff2'),url('../fonts/Helvetica/3387D5_0_0.woff') format('woff'),url('../fonts/Helvetica/3387D5_0_0.ttf') format('truetype');}
+*/
+
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Roman';
+  src: url('../fonts/Helvetica/3387D5_1_0.eot');
+  src: url('../fonts/Helvetica/3387D5_1_0.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica/3387D5_1_0.woff2') format('woff2'), url('../fonts/Helvetica/3387D5_1_0.woff') format('woff'), url('../fonts/Helvetica/3387D5_1_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Md';
+  src: url('../fonts/Helvetica/3387D5_2_0.eot');
+  src: url('../fonts/Helvetica/3387D5_2_0.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica/3387D5_2_0.woff2') format('woff2'), url('../fonts/Helvetica/3387D5_2_0.woff') format('woff'), url('../fonts/Helvetica/3387D5_2_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PTSans';
+  src: url('../fonts/PTSans/PT_Sans-Regular.eot');
+  src: url('../fonts/PTSans/PT_Sans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/PTSans/PT_Sans-Regular.woff2') format('woff2'), url('../fonts/PTSans/PT_Sans-Regular.woff') format('woff'), url('../fonts/PTSans/PT_Sans-Regular.ttf') format('truetype');
+}
+
+/* @mixin HelveticaNeueLTStd-Bd() { 
+	font-family: HelveticaNeueLTStd-Bd;
+	font-weight: normal;
+	font-style: normal;
+} */
+@mixin HelveticaNeueLTStd-Roman() {
+  font-family: HelveticaNeueLTStd-Roman;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin HelveticaNeueLTStd-Md() {
+  font-family: HelveticaNeueLTStd-Md;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin PTSans() {
+  font-family: PTSans;
+  font-weight: normal;
+  font-style: normal;
+}
