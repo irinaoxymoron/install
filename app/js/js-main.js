@@ -90,12 +90,11 @@ let interNational = {
             e.preventDefault();
 
             if (this.classList.contains('englishActive_js')) {
-                this.innerHtml = 'EN'
+                this.innerText = 'EN';
                 self.link.classList.remove('englishActive_js');
-                alert(self.russian.name)
                 self.changeLang(self.russian)
             } else {
-                this.innerHtml = 'RU'
+                this.innerText = 'RU';
                 self.link.classList.add('englishActive_js');
                 self.changeLang(self.english)
             }
