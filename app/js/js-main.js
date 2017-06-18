@@ -53,7 +53,14 @@ let interNational = {
         workPrototype: 'Прототипирование',
         workCoding: 'HTML-верстка',
         workNewsletter: 'Email-рассылки',
-        skillsTitle: 'Навыки'
+        skillsTitle: 'Навыки',
+        gameSite: 'Макет игрового сайта',
+        gameDesc: 'Думаю, все согласятся, что частая проблема пользователей - попытка найти нужный раздел и не заблудиться в дебрях сайта. Поэтому продуманная навигация очень важна. Также, как и необходимость учитывать характер аудитории. Вот геймеры, например, любят темные тона и бывают весьма экспрессивны :)',
+        floristPrototype: 'Важный момент в работе - этап прототипирования',
+        floristDesc: 'Лучший способ не вносить много правок в проект - предусмотреть их, используя прототип.',
+        hobbies: `Увлечения`,
+        hobbiesText: `Экстремальные виды спорта: прыжки с парашютом, полеты на параплане, верховая езда, путешествия автостопом;`,
+        hobbiesBesides: `Кроме того: вышивка крестиком, рисование и фото на полароид.`
     },
     english: {
         name: 'Irina Andrianova',
@@ -68,7 +75,14 @@ let interNational = {
         workPrototype: `Prototype`,
         workCoding: `Html coding`,
         workNewsletter: `Email newsletter`,
-        skillsTitle: `Skills`
+        skillsTitle: `Skills`,
+        gameSite: `Games website layout`,
+        gameDesc: `Correct me if I'm wrong, but "I'm lost" frequent phrase from site users. Convenient navigation is very important. As well as the characteristics of users. For example, gamers like dark colors and often are expressive. Such are they, gamers :)`,
+        floristPrototype: `Prototyping is a very important process in the work of a UX-designer`,
+        floristDesc: `The best way is not to make a lot of edits to the project - to settle all the issues at the prototype stage.`,
+        hobbies: `Hobbies`,
+        hobbiesText: `Extreme activities: paragliding, horseback riding, skydiving, travels and hitch-hiking;`,
+        hobbiesBesides: `And besides: painting, cross stitching and polaroid photos.`
     },
 
     link: document.getElementById('interlink'),
