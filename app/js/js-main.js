@@ -92,6 +92,7 @@ let interNational = {
             if (this.classList.contains('englishActive_js')) {
                 this.innerHtml = 'EN'
                 self.link.classList.remove('englishActive_js');
+                alert(self.russian.name)
                 self.changeLang(self.russian)
             } else {
                 this.innerHtml = 'RU'
