@@ -28,7 +28,6 @@
 @mixin btn-background($color, $hovercolor: #fff){
   padding: 8px 44px;
   transition: all .5s ease;
-  @include HelveticaNeueLTStd-Md();
   font-size: 14px;
   color: #fff;
   border: 2px solid $color;
@@ -72,7 +71,6 @@
 @mixin btn-plain($color, $percent: 3%){
   padding: 8px 44px;
   transition: all .5s ease;
-  @include HelveticaNeueLTStd-Md();
   font-size: 14px;
   color: #fff;
   border-radius: 3px;

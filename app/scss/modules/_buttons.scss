@@ -35,7 +35,6 @@
 
 .btn-plain{
   @include btn();
-  @include btn-plain($green-color);
 }
 
 .btn-subsribe{
@@ -48,15 +47,7 @@
 
 .btn-plain-big{
   @include btn();
-  @include btn-plain($green-color);
   @include btn-size('big');
   border-width: 0;
   width: 100%;
-}
-
-.link-green{
-  color: $green-color;
-  &:hover{
-    color: lighten($green-color, 3%);
-  }
 }

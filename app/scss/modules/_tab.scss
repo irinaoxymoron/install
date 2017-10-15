@@ -5,16 +5,19 @@
   }
 
   &__link.tab__active-link {
-    background: #7c4475;
+    background: $tab-color;
     color: #fff;
-
   }
 
   &__link {
     text-decoration: none;
     display: inline-block;
     padding: 5px 10px;
-    border-radius: 4px;
+    color: #fff;
+
+    &:hover {
+      background: $tab-color;
+    }
   }
 
   &__item {
@@ -22,11 +25,13 @@
   }
 
   &__title {
+    color: $title-color;
     font-weight: bold;
   }
 
   &__links {
     margin-bottom: 20px;
+    background: $color-top;
   }
 
   &__img {
@@ -42,6 +47,9 @@
     margin-bottom: 10px;
     padding: 0;
 
+    &-hidden-text {
+      text-decoration: none;
+    }
 
     &:hover {
       .tab__photo-hidden-text {

@@ -42,6 +42,10 @@
   &__interlink {
     position: absolute;
     padding: 10px;
+    
+    &:hover {
+      background: $tab-color;
+    }
   }
 }
 .header__socials  {

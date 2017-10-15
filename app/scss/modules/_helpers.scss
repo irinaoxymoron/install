@@ -41,12 +41,10 @@
 }
 
 .sitebar-title{
-  @include HelveticaNeueLTStd-Md();
   font-size: 16px;
   line-height: 20px;
 }
 
 .font-md{
   color: #000;
-  @include HelveticaNeueLTStd-Md();
 }
