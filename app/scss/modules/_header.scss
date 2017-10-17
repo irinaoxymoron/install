@@ -78,8 +78,9 @@
   display: inline-block;
   height: 30px;
   width: 30px;
-  fill: rgba(#fff, .7);
+  fill: rgba(#fff, .5);
   margin-right: 10px;
+  transition: .5s;
 
   @include for-tablet-portrait-up {
     margin-right: 5px;
