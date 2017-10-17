@@ -9,8 +9,19 @@
   src: url('../fonts/PTSans/PT_Sans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/PTSans/PT_Sans-Regular.woff2') format('woff2'), url('../fonts/PTSans/PT_Sans-Regular.woff') format('woff'), url('../fonts/PTSans/PT_Sans-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url('../fonts/RalewayRegular/RalewayRegular.woff') format('woff'), url('../fonts/RalewayRegular/RalewayRegular.ttf') format('ttf'), url('../fonts/RalewayRegular/RalewayRegular.eot') format('eot');
+}
+
 @mixin PTSans() {
   font-family: PTSans;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin RalewayRegular() {
+  font-family: RalewayRegular;
   font-weight: normal;
   font-style: normal;
 }
