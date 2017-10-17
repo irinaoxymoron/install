@@ -3,16 +3,25 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 20px;
-  margin-bottom: 11px;
+  margin: 20px 0;
 
   &__text {
     display: block;
     text-align: center;
+    font-size: 26px;
+  }
+
+  &__description {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    opacity: .5;
   }
 
   &__photo {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -45,6 +54,8 @@
   &__interlink {
     position: absolute;
     padding: 10px;
+    transition: .5s;
+    border-radius: 50%;
     
     &:hover {
       background: $tab-color;
