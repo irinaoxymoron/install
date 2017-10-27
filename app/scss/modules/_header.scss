@@ -3,20 +3,20 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 20px 0;
+  margin-bottom: 40px;
 
   &__text {
     display: block;
     text-align: center;
-    font-size: 26px;
+    font-size: 36px;
   }
 
   &__description {
     display: block;
     text-align: center;
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 20px;
     opacity: .5;
   }
 
@@ -30,38 +30,48 @@
 
 
 .header {
-  @include for-tablet-landscape-up {
-    position: fixed;
-    width: 25%;
-    height: 100vh;
-    max-width: 470px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 50px;
+  position: relative;
+  width: 100vw;
+  background: 50% 50% / cover;
+  transform-style: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-  }
-
-  @include for-desktop-up {
-    width: 330px;
-  }
-
-  &__wrap {
-    display: inline-block;
-    margin-right: -10px;
-
-    @include for-tablet-portrait-up {
-      margin-right: -5px;
-    }
+  &::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background: url(../../img/background.jpg) no-repeat;
+    background-size: cover;
+    filter: brightness(30%);
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
   }
 
   &__interlink {
     position: absolute;
     padding: 10px;
     transition: .5s;
-    border-radius: 50%;
+    border-radius: 10px;
+    top: 20px;
+    left: 20px;
     
     &:hover {
-      background: $tab-color;
+      background: rgba(255, 255, 255, .2);
     }
   }
 }
+
 .header__socials  {
   display: flex;
   justify-content: space-around;
@@ -79,11 +89,11 @@
   height: 30px;
   width: 30px;
   fill: rgba(#fff, .5);
-  margin-right: 10px;
+  margin-right: 30px;
   transition: .5s;
 
-  @include for-tablet-portrait-up {
-    margin-right: 5px;
+  &:last-child {
+    margin-right: 0;
   }
 
   &:hover {

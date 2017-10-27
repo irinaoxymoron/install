@@ -13,7 +13,7 @@
     text-decoration: none;
     display: inline-block;
     padding: 5px 10px;
-    color: #fff;
+    color: $title-color;
     transition: .5s;
 
     &:hover {
@@ -34,7 +34,6 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    background: $color-top;
   }
 
   &__img {
@@ -93,11 +92,12 @@
 }
 
 .works {
+  margin-top: 60px;
   &__title {
-    text-align: left;
-    font-size: 24px;
+    text-align: center;
+    font-size: 36px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     color: $title-color;
   }
 }

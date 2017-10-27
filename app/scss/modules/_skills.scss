@@ -1,9 +1,10 @@
 .skills {
-&__head {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  text-align: left;
-  color: $title-color;
-}
+  margin-top: 60px;
+  &__head {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: $title-color;
+  }
 }
