@@ -1,7 +1,7 @@
 .tab {
   &__content {
     display: none;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   &__link.tab__active-link {
@@ -23,6 +23,7 @@
 
   &__item {
     margin-bottom: 20px;
+    background: $tab-color;
   }
 
   &__title {

@@ -28,7 +28,6 @@ main{
 }
 
 .header{
-  font-size: 17px;
   background-color: $color-top;
   position: relative;
   @include section-invert();

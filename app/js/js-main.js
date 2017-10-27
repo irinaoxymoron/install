@@ -62,7 +62,8 @@ let interNational = {
         floristDesc: `Лучший способ не вносить много правок в проект - предусмотреть их, используя прототип.`,
         hobbies: `Увлечения`,
         hobbiesText: `Экстремальные виды спорта: прыжки с парашютом, полеты на параплане, верховая езда, путешествия автостопом;`,
-        hobbiesBesides: `Кроме того: вышивка крестиком, рисование и фото на полароид.`
+        hobbiesBesides: `Кроме того: вышивка крестиком, рисование и фото на полароид.`,
+        footerContent: `Ирина Андрианова`
     },
     english: {
         name: `Irina Andrianova`,
@@ -86,7 +87,8 @@ let interNational = {
         floristDesc: `The best way is not to make a lot of edits of the project but to settle all the issues at the prototype stage.`,
         hobbies: `Hobbies`,
         hobbiesText: `Extreme activities: paragliding, horseback riding, skydiving, travels and hitch-hiking;`,
-        hobbiesBesides: `And besides: painting, cross stitching and polaroid photos.`
+        hobbiesBesides: `And besides: painting, cross stitching and polaroid photos.`,
+        footerContent: `Irina Andrianova`
     },
 
     link: document.getElementById('interlink'),
