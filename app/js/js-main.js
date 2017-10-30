@@ -59,8 +59,8 @@ let interNational = {
         gameDesc: `Думаю, все согласятся, что частая проблема пользователей - попытка найти нужный раздел и не заблудиться в дебрях сайта. Поэтому продуманная навигация очень важна. Также, как и необходимость учитывать характер аудитории. Вот геймеры, например, любят темные тона и бывают весьма экспрессивны :)`,
         floristPrototype: `Прототипирование`,
         floristDesc: `Важный момент в работе - этап прототипирования. Лучший способ не вносить много правок в проект - предусмотреть их, используя прототип.`,
-        hobbies: `Увлечения`,
-        hobbiesText: `Экстремальные виды спорта: прыжки с парашютом, полеты на параплане, верховая езда, путешествия автостопом.`,
+        hobbies: `Увлечения:`,
+        hobbiesText: `Экстремальные виды спорта (прыжки с парашютом, полеты на параплане, верховая езда, путешествия автостопом).`,
         footerContent: `Ирина Андрианова`
     },
     english: {
@@ -82,8 +82,8 @@ let interNational = {
         gameDesc: `Correct me if I'm wrong, but "I'm lost" is a frequent phrase from site users. Convenient navigation is very important, as well as the characteristics of users. For example, gamers like dark colors and often are expressive. Such are they, gamers :)`,
         floristPrototype: `Prototype`,
         floristDesc: `Prototyping is a very important process in the work of a UX-designer. The best way is not to make a lot of edits of the project but to settle all the issues at the prototype stage.`,
-        hobbies: `Hobbies`,
-        hobbiesText: `Extreme activities: paragliding, horseback riding, skydiving, travels and hitch-hiking.`,
+        hobbies: `Hobbies:`,
+        hobbiesText: `Extreme activities (paragliding, horseback riding, skydiving, travels and hitch-hiking).`,
         footerContent: `Irina Andrianova`
     },
 

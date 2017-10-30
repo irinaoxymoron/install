@@ -26,7 +26,7 @@
     display: inline-block;
     padding: 5px 10px;
     color: $title-color;
-    transition: .5s;
+    transition: .3s;
 
     &:hover {
       background: $tab-color;
@@ -63,6 +63,9 @@
   }
 
   &__photo {
+    @include for-tablet-portrait-up {
+      order: 1;
+    }
     display: inline-block;
     position: relative;
     padding: 0;
@@ -77,6 +80,8 @@
         opacity: 1;
       }
     }
+
+
   }
 
   &__text {
@@ -110,5 +115,4 @@
 .tab__content.tab__active-content {
   display: flex;
 }
-
 

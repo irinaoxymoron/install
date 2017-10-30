@@ -25,6 +25,10 @@
     transform: translateZ(-1px) scale(2);
     z-index: -1;
     min-height: 100vh;
+
+    @include for-phone-only {
+      transform: none;
+    }
   }
 
   &__interlink {
@@ -86,6 +90,8 @@
 
 .header__link {
   display: inline-block;
+  height: 30px;
+  width: 30px;
   fill: rgba(#fff, .5);
   margin-right: 20px;
   transition: .5s;
@@ -96,16 +102,5 @@
 
   &:hover {
     fill: #fff;
-  }
-
-  svg {
-    width: 40px;
-    height: auto;
-  }
-}
-
-.tab__photo {
-  @include for-tablet-portrait-up {
-    order: 1;
   }
 }

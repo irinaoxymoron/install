@@ -2,13 +2,28 @@
   max-width: 1064px;
   margin: -120px auto 0;
   padding: 0 80px;
-  background: rgba(51, 59, 80, 1);
+  background: $tab-color;
   text-align: left;
   color: #fff;
+
+  @include for-phone-only {
+    margin: 0 auto;
+    padding: 0;
+    background: none;
+  }
+
   &__title {
     text-align: center;
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 60px;
+  }
+
+  a {
+    opacity: .5;
+    transition: .5s;
+    &:hover {
+      opacity: 1;
+    }
   }
 }

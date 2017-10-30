@@ -102,10 +102,6 @@ h6{
   }
 }
 
-.container-content {
-
-}
-
 /********** FORM *********/
 
 input[placeholder]{
@@ -179,60 +175,4 @@ textarea:focus:-moz-placeholder{
 textarea:focus:-ms-input-placeholder{
   opacity: 0;
   transition: opacity .3s ease;
-}
-
-.sidebar-block-gray{
-  background-color: #f2f2f2;
-  border: 1px solid #e4e6ea;
-  margin-top: $gap;
-  margin-bottom: $gap;
-  padding: 17px 23px 17px 23px;
-  border-radius: 3px;
-}
-
-.sidebar-block{
-  padding: 0 23px 0 23px;
-  margin-top: $gap;
-  margin-bottom: $gap;
-}
-hr{
-  max-width: 1108px;
-  margin-top: 25px;
-  margin-bottom: 28px;
-  border: none;
-  color: #dadada;
-  height: 1px;
-  background-color: #dadada;
-}
-
-.left-sidebar .sidebar {
-  width: 20%;
-  padding: 20px;
-  order: 1;
-
-  @include for-tablet-landscape-up {
-    order: 0;
-  }
-}
-
-.right-sidebar .sidebar {
-  width: 20%;
-  padding: 20px;
-  order: 1;
-}
-
-.both-sidebar .sidebar {
-  width: 20%;
-  padding: 20px;
-  order: 1;
-
-  @include for-tablet-landscape-up {
-    order: 0;
-  }
-}
-
-.both-sidebar .sidebar-second {
-  width: 20%;
-  padding: 20px;
-  order: 2;
 }
