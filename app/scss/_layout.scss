@@ -46,8 +46,14 @@ main{
 
 .wrapp {
   background-color: #fff;
+  background: url(../img/skills-bg.jpg) no-repeat;
+  background-size: cover;
   position: relative;
   z-index: 2;
+  &__works {
+    margin: 0 auto;
+    padding: 10px 30px 60px;
+  }
 }
 
 /** H1-H6 ***/
