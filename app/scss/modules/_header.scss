@@ -20,7 +20,7 @@
     display: block;
     background: url(../../img/background.jpg) no-repeat;
     background-size: cover;
-    filter: brightness(20%);
+    filter: brightness(15%);
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
@@ -86,10 +86,8 @@
 
 .header__link {
   display: inline-block;
-  height: 30px;
-  width: 30px;
   fill: rgba(#fff, .5);
-  margin-right: 30px;
+  margin-right: 20px;
   transition: .5s;
 
   &:last-child {
@@ -98,6 +96,11 @@
 
   &:hover {
     fill: #fff;
+  }
+
+  svg {
+    width: 40px;
+    height: auto;
   }
 }
 

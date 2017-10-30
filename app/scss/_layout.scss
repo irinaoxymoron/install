@@ -9,26 +9,7 @@ section{
   width: 100%;
 }
 
-section.main,
-article.main,
-aside.main{
-  padding-top: 50px;
-}
-
-aside{
-  div:first-child{
-    margin-top: 0;
-  }
-}
-main{
-  padding-bottom: 59px;
-}
-.article-main{
-  padding-bottom: 30px;
-}
-
 .header{
-  background-color: $color-top;
   position: relative;
   @include section-invert();
   .row{
@@ -117,8 +98,7 @@ h6{
   margin-left: auto;
 
   @include for-desktop-up {
-    //width: 1200px;
-    max-width: 100%;
+    max-width: 1064px;
   }
 }
 
