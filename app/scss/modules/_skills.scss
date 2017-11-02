@@ -1,11 +1,12 @@
 .skills {
   max-width: 1064px;
-  margin: 60px auto 0;
+  margin: 40px auto 0;
+  padding: 0;
   &__head {
     text-align: center;
     font-size: 36px;
     font-weight: 600;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     color: $title-color;
   }
 }
