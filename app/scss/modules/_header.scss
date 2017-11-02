@@ -54,6 +54,10 @@
 
   &__text {
     font-size: 36px;
+
+    @include for-phone-only {
+      font-size: 30px;
+    }
   }
 
   &__description {
@@ -61,6 +65,10 @@
     letter-spacing: 3px;
     margin-top: 20px;
     opacity: .5;
+    text-align: center;
+    @include for-phone-only {
+      font-size: 18px;
+    }
   }
 
   &__photo {
