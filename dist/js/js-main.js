@@ -63,6 +63,8 @@ let interNational = {
         wordpressDesc: `Стек используемых технологий: WordPress, Gulp 4.0, Sass, jQuery. Адаптивная верстка. Плагины: jQuery FreeWall, Magnific Popup, NiceScroll, Lazy Load.`,
         smitlerProject: `Сайт салона красоты`,
         smitlerDesc: `Стек используемых технологий: Adobe XD, Gulp 4.0, Sass, jQuery. Адаптивная верстка. Плагины: OptimizedHTML, Hamburgers, equalHeights, Fotorama, Mmenu, Owl Carousel 2, Selectize.`,
+        emailTemplate: `Шаблон для email-рассылки`,
+        emailDesc: `Стек используемых технологий: Foundation for Emails, Inky, SASS, Gulp. Использовался для создания корпоративной рассылки, поэтому итогового результата нет в открытом доступе.`,
         hobbies: `Увлечения:`,
         hobbiesText: `Экстремальные виды спорта (прыжки с парашютом, полеты на параплане, верховая езда, путешествия автостопом).`,
         footerContent: `Ирина Андрианова`
@@ -90,6 +92,8 @@ let interNational = {
         wordpressDesc: `Stack: WordPress, Gulp 4.0, Sass, jQuery. Adaptive layout. Plugins: jQuery FreeWall, Magnific Popup, NiceScroll, Lazy Load.`,
         smitlerProject: `Site of beauty salon`,
         smitlerDesc: `Stack: Adobe XD, Gulp 4.0, Sass, jQuery. Adaptive layout. Plugins: OptimizedHTML, Hamburgers, equalHeights, Fotorama, Mmenu, Owl Carousel 2, Selectize.`,
+        emailTemplate: `Email template`,
+        emailDesc: `Ready template for creating email. Stack: Foundation for Emails, Inky, SASS, Gulp. Used to create a corporate newsletter, so the final result is not demonstrated.`,
         hobbies: `Hobbies:`,
         hobbiesText: `Extreme activities (paragliding, horseback riding, skydiving, travels and hitch-hiking).`,
         footerContent: `Irina Andrianova`
