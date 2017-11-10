@@ -26,8 +26,13 @@
     min-height: 100vh;
 
     @include for-phone-only {
-      transform: none;
+      display: none;
     }
+  }
+
+  @include for-phone-only {
+    background: url(../../img/background-phone.jpg) no-repeat;
+    background-size: cover;
   }
 
   &__interlink {

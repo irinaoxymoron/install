@@ -8,8 +8,7 @@
 
   @include for-phone-only {
     margin: 0 auto;
-    padding: 0;
-    background: none;
+    padding: 0 30px;
   }
 
   &__title {
