@@ -2,9 +2,13 @@
   background: #f3f3f3;
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 30px 60px;
 }
 
 .navigation-link {
   color: #000000;
+}
+
+.blog-article {
+  line-height: 20px;
 }
