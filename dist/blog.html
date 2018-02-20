@@ -11,10 +11,34 @@
 <body>
 <div class="blog-container">
     <nav class="navigation">
-        <ul>
-            <li><a href="../index.html">Main</a></li>
+        <ul class="navigation-list">
+            <li class="navigation-item"><a class="navigation-link" href="../index.html">Main</a></li>
         </ul>
     </nav>
+    <div class="blog-content">
+        <div class="blog-title"><a href="">Пакетное сжатие и обработка растровых изображений</a></div>
+        <div class="blog-article">
+            <p>Для обработки и оптимизации изображений можно использовать набор консольных утилит ImageMagick. Мануалы на английском языке.</p>
+            <p><strong>Пример команды для оптимизации одного изображения в формате jpeg:</strong></p>
+            <p>convert INPUT.jpg -sampling-factor 4:2:0 -strip [-resize WxH] [-quality N] [-interlace JPEG] [-colorspace Gray/sRGB] OUTPUT.jpg
+                convert example.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB example_converted.jpg</p>
+            <p>Параметры, указанные в [скобках], опциональны. Параметр -strip удаляет метаданные. Параметр -resize отвечает за изменение размера, -quality задаёт уровень сжатия, -interlace делает jpeg прогрессивным, -сolorspace Gray сделает изображение черно-белым, -sampling-factor связан с дискретизацией цветности (цветовая субдискретизация), если этот параметр опущен, библиотека JPEG будет использовать собственные значения по умолчанию. Представление схемы — J:a:b (например, 4:2:2) — первая цифра означает ширину области усреднения (в данном случае 4 пикселя), вторая цифра — число результирующих значений цветов в первой строке, третья цифра — число результирующих цветов во второй строке. Всего строк 2 (высота области — 4 пикселя). Также в документации указано, что оптимальные таблицы кодирования Хаффмана вычисляются по умолчанию.</p>
+            <p>Чтобы jpeg сжимался без изменения качества сжатия, достаточно пропустить этот параметр. Если не указать степень сжатия -quality, то по умолчанию будет использоваться оценочное качество вашего входного изображения, когда оно может быть определено (в противном случае 92) и оно не будет изменено. Попытка указать параметр -quality без величины N приведет к ошибке. </p>
+            <p><strong>Пример команды для оптимизации одного изображения в формате png или gif:</strong></p>
+            <p>convert INPUT.gif_or_png -strip [-resize WxH] [-alpha Remove] OUTPUT.png
+                convert example.png -strip example_converted.png</p>
+            <p>Параметр -alpha Remove используется для удаления альфа-каналов, если все пиксели непрозрачны.</p>
+            <p>Рекомендации по оптимизации изображений.</p>
+            <p><strong>Пакетное преобразование.</strong></p>
+            <p>find . -name '*.jpg' -execdir mogrify -resize 820x {} \;</p>
+            <p>Команда find обходит директории, mogrify меняет исходные изображения на обработанные.</p>
+            <p><strong>Финальные команды по пакетной оптимизации всех изображений могут выглядеть так:</strong></p>
+            <p>find . -name '*.jpg' -execdir mogrify -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB {} \;
+                find . -name '*.png' -execdir mogrify -strip {} \;
+                find . -name '*.gif' -execdir mogrify -strip {} \;</p>
+            <p>ImageMagick это огромный многоплатформенный комплекс утилит, который ориентирован на работу в консоли и автоматизацию обработки изображений. Для пакетного изменения изображений можно воспользоваться возможностями командной оболочки, в связи с чем возникают десятки способов решения данного вопроса и преобразование с помощью команды find — лишь один из них.</p>
+        </div>
+    </div>
 </div>
 <footer class="footer">
     <div class="container">
