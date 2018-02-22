@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  overflow-y: hidden;
 }
 
 .blog-container {
@@ -16,5 +15,16 @@
 }
 
 .blog-article {
-  line-height: 20px;
+  line-height: 24px;
+}
+
+.blog-title {
+  font-size: 32px;
+  padding: 20px 0;
+}
+
+.blog-code {
+  background: #fff;
+  padding: 10px;
+  border-radius: 3px;
 }
