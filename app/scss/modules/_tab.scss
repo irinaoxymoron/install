@@ -13,7 +13,9 @@
 .tab {
   &__content {
     display: none;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
   }
 
   &__link.tab__active-link {
@@ -38,9 +40,10 @@
     margin: 0 0 40px;
     box-shadow: -1px -1px 10px 1px #d6d6d6;
     background: #fff;
+    width: 50%;
 
     &:nth-child(2n) {
-      flex-direction: row-reverse;
+      //flex-direction: row-reverse;
     }
   }
 
