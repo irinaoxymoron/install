@@ -4,10 +4,6 @@ section{
   padding: 40px 0;
 }
 
-.section-invert{
-	@include section-invert;
-}
-
 .section {
   &__content {
     order: 1;

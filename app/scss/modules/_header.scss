@@ -1,39 +1,12 @@
 .header {
-  box-sizing: border-box;
+  background: url(../../img/main-background.jpg) no-repeat;
+  background-size: cover;
   min-height: 100vh;
-  position: relative;
   width: 100vw;
-  background: 50% 50% / cover;
-  transform-style: inherit;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  &::before {
-    bottom: 0;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: block;
-    background: url(../../img/background.jpg) no-repeat;
-    background-size: cover;
-    filter: brightness(15%);
-    transform-origin: center center 0;
-    transform: translateZ(-1px) scale(2);
-    z-index: -1;
-    min-height: 100vh;
-
-    @include for-phone-only {
-      display: none;
-    }
-  }
-
-  @include for-phone-only {
-    background: url(../../img/background-phone.jpg) no-repeat;
-    background-size: cover;
-  }
 
   &__interlink {
     position: absolute;
@@ -46,6 +19,29 @@
     
     &:hover {
       background: rgba(255, 255, 255, .2);
+    }
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__link {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    fill: rgba(#fff, .5);
+    margin-right: 20px;
+    transition: .5s;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      fill: #fff;
     }
   }
 }
@@ -81,28 +77,6 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-  }
-}
-
-.header__socials  {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.header__link {
-  display: inline-block;
-  height: 30px;
-  width: 30px;
-  fill: rgba(#fff, .5);
-  margin-right: 20px;
-  transition: .5s;
-
-  &:last-child {
-    margin-right: 0;
-  }
-
-  &:hover {
-    fill: #fff;
+    filter: brightness(50%);
   }
 }

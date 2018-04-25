@@ -63,7 +63,7 @@
                     </svg>
 					</a>
 					<a target="_blank" href="https://ru.pinterest.com/irinaoxymoron/" class="header__link" title="Pinterest">
-						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve" width="30px" height="30px">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 96 96"  xml:space="preserve" width="30px" height="30px">
 <g>
 	<path d="M48,0C21.488,0,0,21.49,0,48c0,26.511,21.488,48,48,48c26.51,0,48-21.489,48-48   C96,21.49,74.51,0,48,0z M51.283,59.383c-3.078-0.238-4.369-1.762-6.779-3.227c-1.326,6.955-2.947,13.624-7.748,17.107   c-1.482-10.514,2.176-18.409,3.873-26.792c-2.895-4.874,0.35-14.685,6.457-12.267c7.514,2.973-6.508,18.121,2.904,20.014   c9.83,1.975,13.842-17.054,7.748-23.242c-8.807-8.934-25.633-0.203-23.564,12.59c0.504,3.128,3.734,4.076,1.291,8.393   c-5.637-1.25-7.318-5.693-7.102-11.621c0.348-9.699,8.717-16.491,17.107-17.431c10.613-1.188,20.576,3.896,21.951,13.88   C68.971,48.057,62.631,60.262,51.283,59.383z" />
 </g>
@@ -74,34 +74,54 @@
 		</div>
 	</div>
 </header>
+
 	<div class="wrapp">
-		<main class="main-content">
-			<div class="content">
-    <section>
-        <div class="content__title" id="aboutTitle">01. Let me introduce myself</div>
-        <p class="content__text" id="aboutText">It is accepted that a designer and a web developer are two
-            different specialties. To be honest, I have a different point of view. A good
-            UX-specialist should know the basics of programming, should be able to analyze,
-            must constantly develop and learn something new. I think that it is very inspiring
-            to work! Now I would like to work in a long-term project with interesting
-            new tasks. I hope that my skills can be interesting for your company.
-        </p>
-        <p class="content__text"><span id="aboutText2">Please, contact me for any information relevant to </span><a id="aboutText3" target="_blank" href="http://spb.hh.ru/resume/76d0de3eff0357f2370039ed1f4961724a7471">my resume</a>.</p>
-    </section>
-</div>
-		</main>
-	</div>
-	<div class="wrapp__works">
+		<section class="content">
+    <div class="content__title" id="aboutTitle">01. Let me introduce myself</div>
+    <p class="content__text" id="aboutText">It is accepted that a designer and a web developer are two
+        different specialties. To be honest, I have a different point of view. A good
+        UX-specialist should know the basics of programming, should be able to analyze,
+        must constantly develop and learn something new. I think that it is very inspiring
+        to work! Now I would like to work in a long-term project with interesting
+        new tasks. I hope that my skills can be interesting for your company.
+    </p>
+    <p class="content__text"><span id="aboutText2">Please, contact me for any information relevant to my resume. </span><a id="aboutText3" target="_blank" href="https://t.me/irinaoxymoron">Telegram</a>.</p>
+</section>
 		<div class="works">
     <div class="works__title" id="workTitle">02. My works</div>
     <div class="tab" id="tab">
         <div class="tab__links">
-            <a href="#" class="tab__link tab__active-link" data-tab="html" id="workCoding">Html coding</a>
-            <a href="#" class="tab__link" data-tab="design" id="workDesign">Design</a>
+            <a href="#" class="tab__link tab__active-link" data-tab="design" id="workDesign">Design</a>
+            <a href="#" class="tab__link" data-tab="html" id="workCoding">Html coding</a>
             <a href="#" class="tab__link" data-tab="prototype" id="workPrototype">Prototype</a>
             <a href="#" class="tab__link" data-tab="email" id="workNewsletter">Email newsletter</a>
         </div>
-        <div class="tab__content tab__active-content" id="html">
+        <div class="tab__content tab__active-content" id="design">
+            <div class="tab__item" >
+                <div class="tab__photo">
+                    <div class="tab__wrap">
+                        <a target="_blank" href="https://www.behance.net/gallery/41652117/Game-Portal" class="tab__photo-hidden-text">
+                            <p class="tab__title" id="gameSite">Games website layout</p>
+                            <p class="tab__description" id="gameDesc">Correct me if I'm wrong, but "I'm lost" is a frequent phrase from site users. Convenient navigation is very important, as well as the characteristics of users. For example, gamers like dark colors and often are expressive. Such are they, gamers :) View project</p>
+                        </a>
+                        <img src="../img/gameportal.jpg" alt="gameportal" class="tab__img">
+                    </div>
+                </div>
+            </div>
+            <div class="tab__item row" >
+                <div class="tab__photo col-xs-12 col-xm-6">
+                    <div class="tab__wrap">
+                        <a target="_blank" href="https://www.behance.net/gallery/63334691/Landing-Page" class="tab__photo-hidden-text">View project</a>
+                        <img src="../img/gameportal.jpg" alt="gameportal" class="tab__img">
+                    </div>
+                </div>
+                <div class="tab__text col-xs-12 col-xm-6">
+                    <p class="tab__title" id="androidApp">Application design development by Material Design guidelines</p>
+                    <p class="tab__description" id="androidDesc">Material is the metaphor. Bold, graphic, intentional. Motion provides meaning.</p>
+                </div>
+            </div>
+        </div>
+        <div class="tab__content" id="html">
             <div class="tab__item row" >
                 <div class="tab__photo col-xs-12 col-xm-6">
                     <div class="tab__wrap">
@@ -148,32 +168,6 @@
                 <div class="tab__text col-xs-12 col-xm-6">
                     <p class="tab__title" id="smitlerProject">Site of beauty salon</p>
                     <p class="tab__description" id="smitlerDesc">Stack: Adobe XD, Gulp 4.0, Sass, jQuery. Adaptive layout. Plugins: OptimizedHTML, Hamburgers, equalHeights, Fotorama, Mmenu, Owl Carousel 2, Selectize.</p>
-                </div>
-            </div>
-        </div>
-        <div class="tab__content" id="design">
-            <div class="tab__item row" >
-                <div class="tab__photo col-xs-12 col-xm-6">
-                    <div class="tab__wrap">
-                        <a target="_blank" href="https://www.behance.net/gallery/41652117/Game-Portal" class="tab__photo-hidden-text">View project</a>
-                        <img src="../img/gameportal.jpg" alt="gameportal" class="tab__img">
-                    </div>
-                </div>
-                <div class="tab__text col-xs-12 col-xm-6">
-                    <p class="tab__title" id="gameSite">Games website layout</p>
-                    <p class="tab__description" id="gameDesc">Correct me if I'm wrong, but "I'm lost" is a frequent phrase from site users. Convenient navigation is very important, as well as the characteristics of users. For example, gamers like dark colors and often are expressive. Such are they, gamers :)</p>
-                </div>
-            </div>
-            <div class="tab__item row" >
-                <div class="tab__photo col-xs-12 col-xm-6">
-                    <div class="tab__wrap">
-                        <a target="_blank" href="https://www.behance.net/gallery/63334691/Landing-Page" class="tab__photo-hidden-text">View project</a>
-                        <img src="../img/gameportal.jpg" alt="gameportal" class="tab__img">
-                    </div>
-                </div>
-                <div class="tab__text col-xs-12 col-xm-6">
-                    <p class="tab__title" id="androidApp">Application design development by Material Design guidelines</p>
-                    <p class="tab__description" id="androidDesc">Material is the metaphor. Bold, graphic, intentional. Motion provides meaning.</p>
                 </div>
             </div>
         </div>

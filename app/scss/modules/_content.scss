@@ -1,17 +1,16 @@
 .content {
-  max-width: 1064px;
-  margin: -120px auto 0;
-  padding: 0 80px;
-  background: $tab-color;
+  z-index: 2;
+  max-width: 960px;
+  margin: -110px auto 0;
   text-align: left;
-  color: #fff;
+  color: #000;
 
   @include for-phone-only {
-    margin: 0 auto;
     padding: 0 30px;
   }
 
   &__title {
+    color: #fff;
     text-align: center;
     font-size: 36px;
     font-weight: 600;
@@ -19,6 +18,7 @@
   }
 
   a {
+    color: #000;
     opacity: .5;
     transition: .5s;
     &:hover {
