@@ -21,6 +21,11 @@ section{
   flex-direction: column;
 }
 
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
 /** H1-H6 ***/
 h1,
 h2,

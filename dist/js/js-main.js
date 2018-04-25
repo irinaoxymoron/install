@@ -33,7 +33,7 @@
             blocks[i].classList.remove('tab__active-content')
         }
 
-        /*Здесь добавляю включаю нужный таб*/
+        /*Добавляю нужный таб*/
         link.classList.add('tab__active-link')
         activeTab.classList.add('tab__active-content')
     }
@@ -42,17 +42,19 @@
 let interNational = {
     russian: {
         name: `Ирина Андрианова`,
-        range: `UX/UI дизайнер, Frontend-разработчик`,
+        range: `Дизайнер, Разработчик, Мечтатель`,
         aboutTitle: `01. Немного обо мне`,
         aboutText: `Принято считать, что дизайнер и разработчик это две разные специальности. На самом деле, хороший специалист по юзабилити всегда немного программист, аналитик, вообще много думающий и изучающий человек. В этом и скрыта главная прелесть работы UX-дизайнера — постоянный рост и стремление к лучшим результатам. В данный момент меня интересуют масштабные проекты, предоставляющие такую возможность.`,
         aboutText2: `Вы можете связаться со мной по любым вопросам  относительно моего резюме. `,
-        aboutText3: `Телеграмм`,
-        workTitle: `02. Портфолио`,
+        aboutText3: `Ссылка на Телеграмм`,
+        skillsTitle: `02. И моих навыках`,
+        hobbies: `Увлечения:`,
+        hobbiesText: `Экстремальные виды спорта (прыжки с парашютом, полеты на параплане, верховая езда, путешествия автостопом).`,
+        workTitle: `03. Портфолио`,
         workDesign: `Дизайн`,
         workPrototype: `Прототипирование`,
         workCoding: `HTML-верстка`,
         workNewsletter: `Email-рассылки`,
-        skillsTitle: `03. Навыки`,
         lsrProject: `Промо-страница LSR`,
         lsrDesc: `Стек используемых технологий: Gulp, Less. Адаптивная верстка.`,
 		landingProject: `Учебный проект Business Landing`,
@@ -69,23 +71,23 @@ let interNational = {
         smitlerDesc: `Стек используемых технологий: Adobe XD, Gulp 4.0, Sass, jQuery. Адаптивная верстка. Плагины: OptimizedHTML, Hamburgers, equalHeights, Fotorama, Mmenu, Owl Carousel 2, Selectize.`,
         emailTemplate: `Шаблон для email-рассылки`,
         emailDesc: `Стек используемых технологий: Foundation for Emails, Inky, SASS, Gulp. Использовался для создания корпоративной рассылки, поэтому итогового результата нет в открытом доступе.`,
-        hobbies: `Увлечения:`,
-        hobbiesText: `Экстремальные виды спорта (прыжки с парашютом, полеты на параплане, верховая езда, путешествия автостопом).`,
         footerContent: `Ирина Андрианова`
     },
     english: {
         name: `Irina Andrianova`,
-        range: `UX/UI designer, Frontend developer`,
+        range: `3D: Designer, Developer, Dreamer`,
         aboutTitle: `01. Let me introduce myself`,
         aboutText: `It is accepted that a designer and a web developer are two different specialties. To be honest, I have a different point of view. A good UX-specialist should know the basics of programming, should be able to analyze, must constantly develop and learn something new. I think that it is very inspiring to work! Now I would like to work in a long-term project with interesting new tasks. I hope that my skills can be interesting for your company.`,
         aboutText2: `Please, contact me for any information relevant to to my resume. `,
         aboutText3: `Telegram`,
-        workTitle: `02. My works`,
+        skillsTitle: `02. And my skills`,
+        hobbies: `Hobbies:`,
+        hobbiesText: `Extreme activities (paragliding, horseback riding, skydiving, travels and hitch-hiking).`,
+        workTitle: `03. My works`,
         workDesign: `Design`,
         workPrototype: `Prototype`,
         workCoding: `Html coding`,
         workNewsletter: `Email newsletter`,
-        skillsTitle: `03. Skills`,
         lsrProject: `Promo-landing LSR`,
         lsrDesc: `Stack: Gulp, Less. Adaptive layout.`,
 		landingProject: `Training project Business Landing`,
@@ -102,8 +104,6 @@ let interNational = {
         smitlerDesc: `Stack: Adobe XD, Gulp 4.0, Sass, jQuery. Adaptive layout. Plugins: OptimizedHTML, Hamburgers, equalHeights, Fotorama, Mmenu, Owl Carousel 2, Selectize.`,
         emailTemplate: `Email template`,
         emailDesc: `Ready template for creating email. Stack: Foundation for Emails, Inky, SASS, Gulp. Used to create a corporate newsletter, so the final result is not demonstrated.`,
-        hobbies: `Hobbies:`,
-        hobbiesText: `Extreme activities (paragliding, horseback riding, skydiving, travels and hitch-hiking).`,
         footerContent: `Irina Andrianova`
     },
 

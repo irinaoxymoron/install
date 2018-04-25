@@ -1,7 +1,4 @@
 .content {
-  z-index: 2;
-  max-width: 960px;
-  margin: -110px auto 0;
   text-align: left;
   color: #000;
 
@@ -10,11 +7,10 @@
   }
 
   &__title {
-    color: #fff;
     text-align: center;
     font-size: 36px;
     font-weight: 600;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   a {
