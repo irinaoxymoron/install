@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c66bad3-44cd-48ac-8f86-3a0ea970119b" name="Default" comment="">
+    <list default="true" id="8c66bad3-44cd-48ac-8f86-3a0ea970119b" name="Default" comment="Redesign">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html-part/content.html" afterPath="$PROJECT_DIR$/app/html-part/content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html-part/footer.html" afterPath="$PROJECT_DIR$/app/html-part/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html-part/header.html" afterPath="$PROJECT_DIR$/app/html-part/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html-part/skills.html" afterPath="$PROJECT_DIR$/app/html-part/skills.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html-part/tab.html" afterPath="$PROJECT_DIR$/app/html-part/tab.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/js-main.js" afterPath="$PROJECT_DIR$/app/js/js-main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_layout.scss" afterPath="$PROJECT_DIR$/app/scss/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/modules/_content.scss" afterPath="$PROJECT_DIR$/app/scss/modules/_content.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/modules/_header.scss" afterPath="$PROJECT_DIR$/app/scss/modules/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/modules/_sections.scss" afterPath="$PROJECT_DIR$/app/scss/modules/_sections.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/modules/_tab.scss" afterPath="$PROJECT_DIR$/app/scss/modules/_tab.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/blog.html" afterPath="$PROJECT_DIR$/dist/blog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/style.css" afterPath="$PROJECT_DIR$/dist/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/js-main.js" afterPath="$PROJECT_DIR$/dist/js/js-main.js" />
     </list>
     <ignored path="catsPortfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_sections.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_sections.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/modules/_sections.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/app/html-part/header.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+              <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
               <folding>
                 <element signature="n#a#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
                 <element signature="n#a#1;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
@@ -115,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_skills.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scss/modules/_skills.scss">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scss/modules/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="578">
+              <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="79" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -190,8 +177,6 @@
         <option value="$PROJECT_DIR$/app/scss/modules/_skills.scss" />
         <option value="$PROJECT_DIR$/app/scss/modules/_tab.scss" />
         <option value="$PROJECT_DIR$/app/html-part/footer.html" />
-        <option value="$PROJECT_DIR$/app/scss/modules/_header.scss" />
-        <option value="$PROJECT_DIR$/app/html-part/header.html" />
         <option value="$PROJECT_DIR$/app/html-part/content.html" />
         <option value="$PROJECT_DIR$/app/html-part/skills.html" />
         <option value="$PROJECT_DIR$/app/html-part/tab.html" />
@@ -200,6 +185,8 @@
         <option value="$PROJECT_DIR$/app/scss/modules/_content.scss" />
         <option value="$PROJECT_DIR$/app/js/js-main.js" />
         <option value="$PROJECT_DIR$/app/scss/modules/_sections.scss" />
+        <option value="$PROJECT_DIR$/app/html-part/header.html" />
+        <option value="$PROJECT_DIR$/app/scss/modules/_header.scss" />
       </list>
     </option>
   </component>
@@ -466,7 +453,7 @@
       <workItem from="1519205442409" duration="5352000" />
       <workItem from="1520843865113" duration="601000" />
       <workItem from="1523610136676" duration="10880000" />
-      <workItem from="1524650193223" duration="17013000" />
+      <workItem from="1524650193223" duration="17667000" />
     </task>
     <task id="LOCAL-00001" summary="Readme was added.">
       <created>1508065949476</created>
@@ -664,15 +651,22 @@
       <option name="project" value="LOCAL" />
       <updated>1524662367629</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Redesign">
+      <created>1524669317356</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1524669317356</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160669000" />
+    <option name="totallyTimeSpent" value="161323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2503477" sideWeight="0.506135" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21086262" sideWeight="0.49386504" order="0" side_tool="false" content_ui="combo" />
@@ -684,7 +678,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17358893" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17358893" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1001,14 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/modules/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/modules/_skills.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1030,18 +1016,6 @@
         <state relative-caret-position="198">
           <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/html-part/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-          <folding>
-            <element signature="n#a#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
-            <element signature="n#a#1;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
-            <element signature="n#a#2;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,8 +1061,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/modules/_sections.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/html-part/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+          <folding>
+            <element signature="n#a#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
+            <element signature="n#a#1;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
+            <element signature="n#a#2;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/modules/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="79" selection-end-column="28" />
           <folding />
         </state>
       </provider>

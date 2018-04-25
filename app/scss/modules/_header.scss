@@ -6,7 +6,7 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 
   &__interlink {
     position: absolute;
@@ -26,7 +26,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
   }
 
   &__link {
@@ -78,6 +77,6 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    filter: brightness(50%);
+    filter: brightness(70%);
   }
 }
