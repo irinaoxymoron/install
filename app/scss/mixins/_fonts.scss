@@ -14,6 +14,11 @@
   src: url('../fonts/RalewayRegular/RalewayRegular.woff') format('woff'), url('../fonts/RalewayRegular/RalewayRegular.ttf') format('ttf'), url('../fonts/RalewayRegular/RalewayRegular.eot') format('eot');
 }
 
+@font-face {
+  font-family: 'Bebas';
+  src: url('../fonts/Bebas/Bebas Neue Cyrillic.eot') format('embedded-opentype'), url('../fonts/Bebas/Bebas Neue Cyrillic.woff2') format('woff2'), url('../fonts/Bebas/BebasNeueCyrillic.woff') format('woff'), url('../fonts/Bebas/BebasNeueCyrillic.ttf') format('truetype');
+}
+
 @mixin PTSans() {
   font-family: PTSans;
   font-weight: normal;
@@ -22,6 +27,12 @@
 
 @mixin RalewayRegular() {
   font-family: RalewayRegular;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin Bebas() {
+  font-family: Bebas;
   font-weight: normal;
   font-style: normal;
 }

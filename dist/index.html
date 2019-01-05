@@ -10,10 +10,15 @@
 </head>
 <body>
 	<header class='header'>
-	<a href="#" class="header__interlink englishActive_js" id="interlink" title="Поменять язык">
-		RU
-	</a>
 	<div class="header__socials">
+		<div class="header__wrap">
+			<a href="#" class="header__nav header__interlink englishActive_js" id="interlink" title="Поменять язык">
+				RU
+			</a>
+			<a href="#" class="header__nav" id="" title="Блог">
+				Blog
+			</a>
+		</div>
 		<div class="header__wrap">
 			<a target="_blank" href="https://www.behance.net/irinaoxymoron" class="header__link" title="Behance">
 				<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -65,16 +70,17 @@
 		</div>
 	</div>
 	<figure class="logo" rol='banner'>
-		<img src="../img/photo.jpg" alt="logo irina andrianova" class="logo__photo">
-		<span class="logo__text" data-id="name" id="name">Irina Andrianova</span>
-		<span class="logo__description" id="range">3D: Designer, Developer, Dreamer</span>
+		<img src="../img/main-photo.jpg" alt="logo irina andrianova" class="logo__photo">
+		<div class="logo__block">
+			<span class="logo__text" data-id="name" id="name">Irina Andrianova</span>
+			<span class="logo__description" id="range">Web-designer, developer</span>
+		</div>
 	</figure>
 </header>
 
 	<div class="wrapp">
-		<div class="about">
-			<section class="content">
-    <div class="content__title" id="aboutTitle">01. Let me introduce myself</div>
+		<section class="content">
+    <div class="content__title" id="aboutTitle">Let me introduce myself</div>
     <p class="content__text" id="aboutText">It is accepted that a designer and a web developer are two
         different specialties. To be honest, I have a different point of view. A good
         UX-specialist should know the basics of programming, should be able to analyze,
@@ -84,23 +90,8 @@
     </p>
     <p class="content__text"><span id="aboutText2">Please, contact me for any information relevant to my resume. </span><a id="aboutText3" target="_blank" href="https://t.me/irinaoxymoron">Telegram</a>.</p>
 </section>
-			<section class="skills">
-    <div class="skills__head" id="skillsTitle">02. And my skills</div>
-    <div class="skills__content">
-        <div class="skills__item">
-            <p class="skills__text"><strong>UX/UI:</strong> Axure, Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Adobe Edge Animate;</p>
-        </div>
-        <div class="skills__item">
-            <p class="skills__text"><strong>Frontend:</strong> HTML (responsive, adaptive layout), CSS (SASS/SCSS), E-mail (Foundation for e-mail, custom solutions), JavaScript (pure, jQuery), CMS (Wordpress, Bitrix, Joomla!). Pug, npm, Gulp.</p>
-        </div>
-        <div class="skills__item">
-            <p class="skills__text"><strong id="hobbies">Hobbies:</strong> <span id="hobbiesText">Extreme activities (paragliding, horseback riding, skydiving, travels and hitch-hiking).</span></p>
-        </div>
-    </div>
-</section>
-		</div>
 		<div class="works">
-    <div class="works__title" id="workTitle">03. My works</div>
+    <div class="works__title" id="workTitle">My works</div>
     <div class="tab" id="tab">
         <div class="tab__links">
             <a href="#" class="tab__link tab__active-link" data-tab="design" id="workDesign">Design</a>
@@ -215,6 +206,20 @@
         </div>
     </div>
 </div>
+		<section class="skills">
+    <div class="skills__head" id="skillsTitle">My skills</div>
+    <div class="skills__content">
+        <div class="skills__item">
+            <p class="skills__text"><strong>UX/UI:</strong> Axure, Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Adobe Edge Animate;</p>
+        </div>
+        <div class="skills__item">
+            <p class="skills__text"><strong>Frontend:</strong> HTML (responsive, adaptive layout), CSS (SASS/SCSS), E-mail (Foundation for e-mail, custom solutions), JavaScript (pure, jQuery), CMS (Wordpress, Bitrix, Joomla!). Pug, npm, Gulp.</p>
+        </div>
+        <div class="skills__item">
+            <p class="skills__text"><strong id="hobbies">Hobbies:</strong> <span id="hobbiesText">Extreme activities (paragliding, horseback riding, skydiving, travels and hitch-hiking).</span></p>
+        </div>
+    </div>
+</section>
 	</div>
 	<footer class="footer">
     <div class="container">

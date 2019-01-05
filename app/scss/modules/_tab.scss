@@ -1,8 +1,9 @@
 .works {
   &__title {
+    @include Bebas();
+    letter-spacing: 2px;
     text-align: center;
     font-size: 36px;
-    font-weight: 600;
     margin-bottom: 40px;
     color: $title-color;
   }
