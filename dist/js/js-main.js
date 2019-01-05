@@ -41,10 +41,11 @@
 
 let interNational = {
     russian: {
+        blog: `Блог`,
         name: `Ирина`,
         surname: 'Андрианова',
         range: `Веб-дизайнер, разработчик`,
-        aboutTitle: `Немного обо мне`,
+        aboutTitle: `Обо мне`,
         aboutText: `Принято считать, что дизайнер и разработчик это две разные специальности. На самом деле, хороший специалист по юзабилити всегда немного программист, аналитик, вообще много думающий и изучающий человек. В этом и скрыта главная прелесть работы UX-дизайнера — постоянный рост и стремление к лучшим результатам. В данный момент меня интересуют масштабные проекты, предоставляющие такую возможность.`,
         aboutText2: `Вы можете связаться со мной по любым вопросам  относительно моего резюме. `,
         aboutText3: `Ссылка на Телеграмм`,
@@ -52,8 +53,7 @@ let interNational = {
         hobbies: `Увлечения:`,
         hobbiesText: `Экстремальные виды спорта (прыжки с парашютом, полеты на параплане, верховая езда, путешествия автостопом).`,
         workTitle: `Портфолио`,
-        workDesign: `Дизайн`,
-        workPrototype: `Прототипирование`,
+        workDesign: `Дизайн и прототипирование`,
         workCoding: `HTML-верстка`,
         workNewsletter: `Email-рассылки`,
         lsrProject: `Промо-страница LSR`,
@@ -75,6 +75,7 @@ let interNational = {
         footerContent: `Ирина Андрианова`
     },
     english: {
+        blog: `Blog`,
         name: `Irina`,
         surname: 'Andrianova',
         range: `Web-designer, developer`,
@@ -86,8 +87,7 @@ let interNational = {
         hobbies: `Hobbies:`,
         hobbiesText: `Extreme activities (paragliding, horseback riding, skydiving, travels and hitch-hiking).`,
         workTitle: `My works`,
-        workDesign: `Design`,
-        workPrototype: `Prototype`,
+        workDesign: `Design and Prototype`,
         workCoding: `Html coding`,
         workNewsletter: `Email newsletter`,
         lsrProject: `Promo-landing LSR`,

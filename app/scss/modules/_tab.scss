@@ -18,8 +18,7 @@
   }
 
   &__link.tab__active-link {
-    background: $tab-color;
-    color: #fff;
+    background: $main-color;
   }
 
   &__link {
@@ -30,8 +29,7 @@
     transition: .3s;
 
     &:hover {
-      background: $tab-color;
-      color: #fff;
+      background: $main-color;
     }
   }
 
@@ -40,6 +38,7 @@
     position: relative;
     padding: 0;
     transition: .5s;
+    width: 25%;
   }
 
   &__title {

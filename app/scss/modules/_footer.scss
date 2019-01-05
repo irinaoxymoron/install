@@ -1,5 +1,5 @@
 .footer {
-  background: #030303;
+  background: #060606;
   padding: 30px 30px 25px;
   width: 100%;
   flex: 0 0 auto;
@@ -8,5 +8,30 @@
     text-align: center;
     margin: 0 0 25px;
     color: #fff;
+  }
+
+  &__socials {
+    margin: 40px 0 20px;
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__link {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    fill: #fff;
+    margin-right: 20px;
+    transition: .5s;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      fill: rgba(#fff, .5);
+    }
   }
 }
