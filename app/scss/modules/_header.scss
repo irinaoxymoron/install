@@ -32,21 +32,15 @@
     }
   }
 
-  &__wrap {
-    @include for-phone-only {
-      margin: 20px 0;
-    }
-  }
-
   &__socials {
-    margin: 40px;
+    margin: 40px 80px;
     line-height: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     @include for-phone-only {
-      flex-direction: column;
+      margin: 20px 40px;
     }
   }
 
@@ -78,6 +72,12 @@
 
   @include for-tablet-landscape-up {
     flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  @include for-phone-only {
+    margin: 20px 40px;
+    margin-bottom: -100px; 
   }
 
   &__block {
@@ -88,8 +88,9 @@
   }
 
   &__text {
-    @include Bebas();
-    font-size: 100px;
+    @include Narrow();
+    text-transform: uppercase;
+    font-size: 90px;
     line-height: 1;
     background: #fff;
     display: inline-flex;
@@ -105,26 +106,30 @@
     }
 
     @include for-laptop-up {
-      margin-left: -200px;
+      margin-left: -230px;
     }
 
     @include for-tablet-landscape-up {
-      margin: 5px 20px;
-      font-size: 80px;
+      margin: 5px 0;
+      font-size: 50px;
     }
   }
 
   &__description {
     font-size: 20px;
     letter-spacing: 3px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 10px;
     opacity: .5;
     text-align: center;
 
     @include for-laptop-up {
-      font-size: 18px;
-      margin-top: 20px;
+      font-size: 16px;
+      margin-top: 40px;
+    }
+
+    @include for-tablet-landscape-up {
+      margin: 10px 0;
     }
   }
 
