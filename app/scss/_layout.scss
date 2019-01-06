@@ -1,4 +1,7 @@
 body{
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  
   @include PTSans();
   font-size: $font-size;
   line-height: $line-height;

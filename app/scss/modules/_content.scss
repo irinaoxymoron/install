@@ -1,7 +1,8 @@
 .content {
   text-align: center;
   color: #000;
-  padding-top: 160px;
+  background: #f2e8e6;
+  margin-top: 60px;
 
   @include for-phone-only {
     padding: 30px;
