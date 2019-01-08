@@ -1,11 +1,51 @@
 .content {
-  text-align: center;
+  padding: 0;
   color: #000;
   background: #f2e8e6;
   margin-top: 60px;
 
-  @include for-phone-only {
-    padding: 30px;
+  &__wrap {
+    display: flex;
+    margin: 40px 100px;
+    margin-bottom: -100px;
+
+    @include for-tablet-landscape-up {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    @include for-phone-only {
+      margin: 40px;
+      margin-bottom: -100px;
+    }
+  }
+
+  &__photo {
+    width: 40%;
+
+    @include for-tablet-landscape-up {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__img {
+    width: 420px;
+    border: 20px solid #fff;
+
+    @include for-tablet-landscape-up {
+      width: 300px;
+    }
+  }
+
+  &__block {
+    width: 60%;
+    padding: 20px 0 0 20px;
+
+    @include for-tablet-landscape-up {
+      width: 100%;
+      padding: 0;
+    }
   }
 
   &__title {

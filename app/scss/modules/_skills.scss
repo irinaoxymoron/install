@@ -1,17 +1,42 @@
 .skills {
-	
-  	&__head {
-  		@include Bebas();
-  		letter-spacing: 2px;
-    	text-align: center;
-    	font-size: 36px;
-    	margin-bottom: 40px;
-    	color: $title-color;
-  	}
+    padding: 0;
+    padding-top: 160px;
+    margin: 0 100px;
+
+    &__head {
+      @include Bebas();
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: $title-color;
+    }
+
+    &__content {
+      display: flex;
+
+      @include for-phone-only {
+        flex-direction: column;
+      }
+    }
+
+    &__item {
+      margin: 20px;
+      width: 33%;
+
+      @include for-phone-only {
+        width: 100%;
+        margin: 20px 0;
+      }
+    }
+
+    &__title{
+      font-weight: bold;
+      background: #ffdbda;
+      padding: 10px;
+    }
 
   	&__text {
-  		max-width: 900px;
-    	margin: 0 auto;
     	padding-bottom: 20px;
     	font-size: 20px;
     	line-height: 26px;

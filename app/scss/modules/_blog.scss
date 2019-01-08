@@ -1,30 +1,34 @@
-.blog-wrapper {
+.blog__wrapper {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-.blog-container {
-  background: #f3f3f3;
+.blog__container {
+  background: #fff;
   flex: 1 0 auto;
-  padding: 30px 60px;
+  padding: 30px 100px;
+
+  @include for-phone-only {
+    padding: 20px 40px;
+  }
 }
 
-.navigation-link {
-  color: #000000;
-}
-
-.blog-article {
+.blog__article {
   line-height: 24px;
 }
 
-.blog-title {
-  font-size: 32px;
+.blog__title {
+  @include Bebas();
+  font-size: 36px;
   padding: 20px 0;
+  letter-spacing: 2px;
+  text-align: left;
+  color: $title-color;
 }
 
-.blog-code {
-  background: #fff;
+.blog__code {
+  background: #f3f3f3;
   padding: 10px;
   border-radius: 3px;
 }
